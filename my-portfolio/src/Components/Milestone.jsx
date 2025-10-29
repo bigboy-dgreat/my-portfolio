@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import img1 from "../assets/zxdc.jpg";
+import img1 from "../assets/multi.jpg";
 import img2 from "../assets/cam.webp";
 import img3 from "../assets/one.jpg";
 import { useNavbar } from "../Context/NavbarContext";
@@ -9,9 +9,9 @@ const milestones = [
   {
     year: "2024",
     image: img1,
-    title: "ZEDX",
+    title: "NEW PORTFOLIO",
     description:
-      "I worked closely with Mozart, leading the frontend development for the ZEDX website and application.",
+      "This update marks a new chapter in redefining my portfolio.",
   },
   {
     year: "2025",

@@ -2,9 +2,9 @@ import React from 'react'
 
 const works = [
   {
-    title: "ZEDX",
+    title: "New Update",
     description: "Shaping the new standards of an iconic agency",
-    img: "/zxdc.jpg",
+    img: "/multi.jpg",
     link: "/work",
     full: true,
   },

@@ -15,7 +15,7 @@ const notes = [
     img: "/solo.png",
   },
   {
-    title: "New client: Mozart Adegunle",
+    title: "New client: Moses Adegunle",
     category: "New Client",
     date: "October 11, 2025",
     img: "/Mozart[1].jpg",

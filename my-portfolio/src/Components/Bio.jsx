@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import img1 from "../assets/bolu.JPG";
 import img2 from "../assets/stand firm.jpg";
 import { useNavbar } from "../Context/NavbarContext";
@@ -6,6 +6,7 @@ import { useNavbarAlignment } from "./useNavbarAlignment";
 
 const Bio = () => {
   const { setNavbarStyles } = useNavbar();
+  const [showMore, setShowMore] = useState(false)
 
   // Navbar tweak
   useEffect(() => {
@@ -59,11 +60,30 @@ const Bio = () => {
               about scalable, user-focused solutions.
             </p>
             <p>
-              Since then, I’ve kept iterating, optimizing, and building with one
+              Since then, I’ve kept {" "}
+              {!showMore && (
+                <button
+                onClick={() => setShowMore(true)}
+                className="text-sm md:text-base font-medium text-gray-400 hover:text-white transition"
+                >
+                  <span className="text-white text-xl">...</span> Show More
+                </button>
+              )}
+              {showMore && (
+                <>
+                 iterating, optimizing, and building with one
               goal in mind — to create fast, intuitive, and reliable software
               that people love to use. I use my imagination to create meaningful
               digital experiences that bridge ideas and technology. This is what
-              I do. And I love it.
+              I do. And I love it.{" "}
+              <button
+              onClick={() => setShowMore(false)}
+              className="text-sm md:text-base font-medium text-gray-400 hover:text-white transition underline underline-offset-2"
+              >
+                Show Less
+              </button>
+              </>
+              )}
             </p>
           </div>
         </div>

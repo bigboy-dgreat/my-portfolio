@@ -21,7 +21,8 @@ const quotes = [
   },
   {
     text: "A quitter never wins - And a winner never quits.",
-    author: "Anonymous",
+    author: "Napoleon Hill",
+    img: "/grow.webp",
   },
 ];
 

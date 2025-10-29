@@ -14,7 +14,7 @@ const projects = [
   },
   {
     id: "have",
-    title: "New client: Mozart Adegunle",
+    title: "New client: Moses Adegunle",
     img: Mozart01,
     categories: ["New Client — October 11, 2025"],
     slug: "new-client-mozart-adegunle",

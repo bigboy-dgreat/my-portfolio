@@ -13,8 +13,7 @@ const Clients = () => {
       direction: "down",
       clients: [
         "Vogue",
-        "ZEDX",
-        "ImagiNation",
+        "IMAGINATION",
         "Cosmopolitan",
         "Harper’s Bazaar",
         "GQ",

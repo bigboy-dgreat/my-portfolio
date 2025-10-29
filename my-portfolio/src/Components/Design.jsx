@@ -3,7 +3,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const images = ["/solo.png", "/multi.jpg", "/zxdc.jpg"];
+const images = ["/solo.png", "/multi.jpg", "/cam.webp"];
 
 const skills = [
   "Front-end development",

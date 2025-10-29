@@ -3,7 +3,7 @@ import { FaChevronDown } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
 
-import workImg from "../assets/zxdc.jpg";
+import workImg from "../assets/multi.jpg";
 import notesImg from "../assets/one.jpg";
 import servicesImg from "../assets/Have1.jpg";
 import profileImg from "../assets/audio.jpg";
@@ -72,13 +72,13 @@ const Work = ({
   const projects = [
     {
       id: "channel",
-      title: "ZEDX",
+      title: "New Update",
       description: "Elevating brands, businesses, and creatives",
       status: "Case study",
       img: workImg,
       categories: ["Brand design", "Fashion & Beauty"],
       layout: "full",
-      link: "https://zedxoriginal.com/about-us/",
+      link: "https://jinadstefan-dev.vercel.app/",
     },
     {
       id: "studio-a",

@@ -12,7 +12,7 @@ const notesData = {
   "solo-developer":{
     component: <Solo />
   },
-  "new-client-mozart-adegunle":{
+  "new-client-moses-adegunle":{
     component: <Mozart />
   }
 

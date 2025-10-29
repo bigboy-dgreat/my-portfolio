@@ -34,7 +34,7 @@ const Mozart = () => {
                   </div>
             </div>
             <h1 className='text-3xl sm:text-4xl md:text-[55px] leading-tight text-left mt-16 sm:mt-10 pb-14'>
-                  New client: Mozart Adegunle
+                  New client: Moses Adegunle
             </h1>
       </div>
 
@@ -45,7 +45,7 @@ const Mozart = () => {
                   New client  — October 11, 2025
             </p>
              <p className='md:max-w-3xl font-semibold leading-relaxed md:ml-10'>
-                 I’m excited to introduce Mozart, a talented UX/UI designer, long-time friend, and now a new client. With years of experience creating seamless digital experiences, Mozart brings an unmatched sense of clarity and craft to every project. We’ve had the chance to collaborate closely on ZEDX, HAVE, and the ONE project — and each time, his attention to detail and design intuition elevate the entire process.
+                 I’m excited to introduce Mozart, a talented UX/UI designer, long-time friend, and now a new client. With years of experience creating seamless digital experiences, Mozart brings an unmatched sense of clarity and craft to every project. We’ve had the chance to collaborate closely on HAVE, and the ONE project—and each time, his attention to detail and design intuition elevate the entire process.
             </p>
       </div>
 
@@ -67,7 +67,7 @@ const Mozart = () => {
   rel="noopener noreferrer"
   className="relative transition-all duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[1px] after:bg-white group-hover:after:w-full after:transition-all after:duration-300"
 >
-  Morzart.com
+  mosesadegunle.com
 </a>
 
         {/* Animated arrow */}

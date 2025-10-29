@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 const logos = [
   ["/Heif.png", "/wedd.png"],
   ["/Have.png", "/prada.png"],
-  ["/zedx.png", "/Heif.png"],
+  ["/one.png", "/Heif.png"],
   ["/Have.png", "/prada.png"],
-  ["/prada.png", "/Have.png"],
-  ["/Heif.png", "/zedx.png"],
+  ["/prada.png", "/one.png"],
+  ["/Heif.png", "/Have.png"],
 ];
 
 // Different intervals for each logo (ms)
@@ -63,7 +63,7 @@ const LogoSlot = ({ logoSet, interval, delay }) => {
             ease: "easeInOut",
           }}
           className={`object-contain absolute filter brightness-0 invert ${
-            src.includes("zedx") ? "h-8 sm:h-16 md:h-9" : "h-16 sm:h-20 md:h-20"
+            src.includes("one") ? "h-8 sm:h-16 md:h-9" : "h-16 sm:h-20 md:h-20"
           }`}
         />
       ))}
