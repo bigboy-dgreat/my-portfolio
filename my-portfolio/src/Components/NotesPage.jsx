@@ -53,7 +53,7 @@ const NotesPage = () => {
       description: "HAVE homes and services — design meets luxury.",
       img: Mozart01,
       categories: ["New Client — October 11, 2025"],
-      slug: "new-client-mozart-adegunle",
+      slug: "new-client-moses-adegunle",
     },
   ];
 
