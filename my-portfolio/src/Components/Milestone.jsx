@@ -7,7 +7,7 @@ import { useNavbar } from "../Context/NavbarContext";
 
 const milestones = [
   {
-    year: "2024",
+    year: "2025",
     image: img1,
     title: "NEW PORTFOLIO",
     description:
