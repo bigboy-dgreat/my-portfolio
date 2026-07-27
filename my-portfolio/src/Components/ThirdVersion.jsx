@@ -8,8 +8,13 @@ const ThirdVersion = () => {
   ];
 
   return (
-  <section className="bg-white dark:bg-[#0d0e0f] text-black dark:text-white border-b border-black dark:border-white overflow-hidden">
-      <div className="w-full px-4 md:px-5 pt-6 md:pt-6 pb-16 md:pb-44">
+  <section className="bg-white dark:bg-[#0d0e0f]
+   text-black dark:text-white border-b
+    border-black dark:border-white
+     overflow-hidden">
+
+      <div className="w-full px-4 md:px-5
+                   pt-6 md:pt-6 pb-16 md:pb-44">
         {/* 
           On mobile: flex-row scrollable horizontally 
           On desktop: 3-column grid layout 
